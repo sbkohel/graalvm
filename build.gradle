@@ -5,16 +5,19 @@ plugins {
 group 'com'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+ext.graalvmVersion = '21.1.0'
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
+    annotationProcessor "org.graalvm.truffle:truffle-dsl-processor:${project.graalvmVersion}"
+
+    implementation "org.graalvm.sdk:graal-sdk:${project.graalvmVersion}"
+    implementation "org.graalvm.truffle:truffle-api:${project.graalvmVersion}"
+    implementation 'org.antlr:antlr4-runtime:4.7'
+    compileOnly "org.graalvm.truffle:truffle-tck:${project.graalvmVersion}"
+
     testCompile group: 'junit', name: 'junit', version: '4.12'
-    compile group: 'org.graalvm', name: 'graal-sdk', version: '1.0.0-rc7'
-    compile group: 'com.oracle.truffle', name: 'truffle-api', version: '1.0.0-rc7'
-    compile files('/home/sterling/Apps/graalvm-ce-1.0.0-rc7/jre/languages/js/graaljs.jar', '/home/sterling/Apps/graalvm-ce-1.0.0-rc7/jre/languages/python/graalpython.jar',
-            '/home/sterling/Apps/graalvm-ce-1.0.0-rc7/jre/languages/R/fastr.jar','/home/sterling/Apps/graalvm-ce-1.0.0-rc7/jre/languages/R/lib/libR.so','/home/sterling/Apps/graalvm-ce-1.0.0-rc7/jre/tools/regex/tregex.jar')
 }
