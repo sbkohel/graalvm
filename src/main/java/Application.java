@@ -6,16 +6,18 @@ import java.util.Scanner;
 
 class Application {
     public static void main(String[] args) throws IOException {
+        final String rootDir = System.getProperty("user.dir");
+
         String[] supportedLangs = { "js", "python", "R" };
         Context context = Context.newBuilder(supportedLangs).allowAllAccess(true).build();
 
-        String jsFile = readFile("/home/sterling/IdeaProjects/kohel/src/main/scripts/helloWorld.js");
+        String jsFile = readFile(rootDir + "/src/main/scripts/helloWorld.js");
         runScript(jsFile, context, "js");
 
-        String pyFile = readFile("/home/sterling/IdeaProjects/kohel/src/main/scripts/helloWorld.py");
+        String pyFile = readFile(rootDir + "/src/main/scripts/helloWorld.py");
         runScript(pyFile, context, "python");
 
-        String rFile = readFile("/home/sterling/IdeaProjects/kohel/src/main/scripts/helloWorld.R");
+        String rFile = readFile(rootDir + "/src/main/scripts/helloWorld.R");
         runScript(rFile, context, "R");
     }
 
