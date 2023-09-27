@@ -17,8 +17,8 @@ class Application {
         String pyFile = readFile(rootDir + "/src/main/scripts/helloWorld.py");
         runScript(pyFile, context, "python");
 
-        String rFile = readFile(rootDir + "/src/main/scripts/helloWorld.R");
-        runScript(rFile, context, "R");
+//        String rFile = readFile(rootDir + "/src/main/scripts/helloWorld.R");
+//        runScript(rFile, context, "R");
     }
 
     private static Value runScript(String script, Context context, String language) {

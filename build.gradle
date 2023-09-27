@@ -5,19 +5,17 @@ plugins {
 group 'com'
 version '1.0-SNAPSHOT'
 
-ext.graalvmVersion = '21.1.0'
-
+ext.graalvmVersion = '23.1.0'
+print graalvmVersion
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    annotationProcessor "org.graalvm.truffle:truffle-dsl-processor:${project.graalvmVersion}"
+    implementation "org.graalvm.polyglot:polyglot:$graalvmVersion"
+    implementation "org.graalvm.js:js-language:$graalvmVersion"
+    implementation "org.graalvm.python:python-language:$graalvmVersion"
+    implementation "org.antlr:antlr4-runtime:4.7"
 
-    implementation "org.graalvm.sdk:graal-sdk:${project.graalvmVersion}"
-    implementation "org.graalvm.truffle:truffle-api:${project.graalvmVersion}"
-    implementation 'org.antlr:antlr4-runtime:4.7'
-    compileOnly "org.graalvm.truffle:truffle-tck:${project.graalvmVersion}"
-
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+//    testCompile group: 'junit', name: 'junit', version: '4.12'
 }
