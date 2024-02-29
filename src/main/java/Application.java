@@ -9,12 +9,12 @@ class Application {
         final String rootDir = System.getProperty("user.dir");
 
         String[] supportedLangs = { "js", "python", "R" };
-        Context context = Context.newBuilder(supportedLangs).allowAllAccess(true).build();
+        Context context = Context.newBuilder(supportedLangs).allowAllAccess(true).option("engine.WarnInterpreterOnly", "false").build();
 
-        String jsFile = readFile(rootDir + "/src/main/scripts/helloWorld.js");
+        String jsFile = readFile(rootDir + "/scripts/helloWorld.js");
         runScript(jsFile, context, "js");
 
-        String pyFile = readFile(rootDir + "/src/main/scripts/helloWorld.py");
+        String pyFile = readFile(rootDir + "/scripts/helloWorld.py");
         runScript(pyFile, context, "python");
 
 //        String rFile = readFile(rootDir + "/src/main/scripts/helloWorld.R");
