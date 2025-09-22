@@ -5,29 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acde9b92-732c-4b6f-aacd-d44166c56301" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/test-scripts/invalid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test-scripts/malformed.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test-scripts/valid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test-scripts/valid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/contracts/application-methods.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/data-model.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/plan.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/quickstart.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/research.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/spec.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/tasks.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EdgeCaseContextFailuresTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EdgeCaseMalformedScriptsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EdgeCaseMissingFilesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MainIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/MockFileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReadFileErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ReadFileValidTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunScriptErrorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunScriptJSTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RunScriptPythonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestFixtures.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/001-build-unit-tests/constitution.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/001-build-unit-tests/implement.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/001-build-unit-tests/plan.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/001-build-unit-tests/specify.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/001-build-unit-tests/tasks.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/constitution.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/implement.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/plan.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/specify.prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/specs/002-unit-test-coverage/tasks.prompt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilotDiffState.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilotDiffState.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +248,7 @@
       <workItem from="1710277756483" duration="4304000" />
       <workItem from="1716317409510" duration="2184000" />
       <workItem from="1758567569397" duration="173000" />
-      <workItem from="1758567770721" duration="8013000" />
+      <workItem from="1758567770721" duration="9959000" />
     </task>
     <task id="LOCAL-00001" summary="- add jar">
       <option name="closed" value="true" />
