@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="PolyglotIntegrationTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-09-22T21:23:52" hostname="WIN-F9IL5BMNMNS" time="1.759">
+  <properties/>
+  <testcase name="Should handle mixed language execution in sequence" classname="PolyglotIntegrationTest" time="0.525"/>
+  <testcase name="Should handle complex data processing workflow" classname="PolyglotIntegrationTest" time="0.141"/>
+  <testcase name="Should execute complete JavaScript workflow from file to result" classname="PolyglotIntegrationTest" time="0.049"/>
+  <testcase name="Should handle large-scale workflow processing" classname="PolyglotIntegrationTest" time="0.08"/>
+  <testcase name="Should maintain context isolation between workflows" classname="PolyglotIntegrationTest" time="0.109"/>
+  <testcase name="Should handle workflow with error recovery" classname="PolyglotIntegrationTest" time="0.053"/>
+  <testcase name="Should execute complete Python workflow from file to result" classname="PolyglotIntegrationTest" time="0.792"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

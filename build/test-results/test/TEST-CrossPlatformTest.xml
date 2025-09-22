@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CrossPlatformTest" tests="12" skipped="1" failures="0" errors="0" timestamp="2025-09-22T21:23:47" hostname="WIN-F9IL5BMNMNS" time="0.265">
+  <properties/>
+  <testcase name="Should provide consistent error messages across platforms" classname="CrossPlatformTest" time="0.009"/>
+  <testcase name="Should handle current directory references" classname="CrossPlatformTest" time="0.012"/>
+  <testcase name="Should handle Unix-style paths with forward slashes" classname="CrossPlatformTest" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase name="Should handle paths with spaces across platforms" classname="CrossPlatformTest" time="0.021"/>
+  <testcase name="Should handle relative paths correctly across platforms" classname="CrossPlatformTest" time="0.018"/>
+  <testcase name="Should handle forward slash paths on all platforms" classname="CrossPlatformTest" time="0.016"/>
+  <testcase name="Should handle Windows drive letters correctly" classname="CrossPlatformTest" time="0.023"/>
+  <testcase name="Should handle Windows-style backslash paths" classname="CrossPlatformTest" time="0.02"/>
+  <testcase name="Should handle absolute paths across platforms" classname="CrossPlatformTest" time="0.013"/>
+  <testcase name="Should normalize path separators automatically" classname="CrossPlatformTest" time="0.021"/>
+  <testcase name="Should handle deep directory structures across platforms" classname="CrossPlatformTest" time="0.049"/>
+  <testcase name="Should handle paths with special characters" classname="CrossPlatformTest" time="0.036"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MainIntegrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2025-09-22T21:23:49" hostname="WIN-F9IL5BMNMNS" time="1.129">
+  <properties/>
+  <testcase name="testMain_withMalformedScripts_handlesErrors()" classname="MainIntegrationTest" time="0.038"/>
+  <testcase name="testMain_missingScriptFiles_handlesGracefully()" classname="MainIntegrationTest" time="0.007"/>
+  <testcase name="testMain_withValidScripts_executesSuccessfully()" classname="MainIntegrationTest" time="1.083"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

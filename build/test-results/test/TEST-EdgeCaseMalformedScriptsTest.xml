@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="EdgeCaseMalformedScriptsTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-09-22T21:23:47" hostname="WIN-F9IL5BMNMNS" time="1.125">
+  <properties/>
+  <testcase name="testMalformedPython_invalidSyntax_throwsException()" classname="EdgeCaseMalformedScriptsTest" time="0.476"/>
+  <testcase name="testEmptyScript_handledGracefully()" classname="EdgeCaseMalformedScriptsTest" time="0.033"/>
+  <testcase name="testMalformedJavaScript_unclosedBrace_throwsException()" classname="EdgeCaseMalformedScriptsTest" time="0.025"/>
+  <testcase name="testReadAndRunMalformedScriptFile_throwsException()" classname="EdgeCaseMalformedScriptsTest" time="0.064"/>
+  <testcase name="testMalformedPython_invalidIndentation_throwsException()" classname="EdgeCaseMalformedScriptsTest" time="0.47"/>
+  <testcase name="testMalformedJavaScript_unclosedString_throwsException()" classname="EdgeCaseMalformedScriptsTest" time="0.021"/>
+  <testcase name="testScriptWithOnlyWhitespace_handledGracefully()" classname="EdgeCaseMalformedScriptsTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
